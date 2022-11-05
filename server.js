@@ -14,6 +14,7 @@ var server = http.createServer((request, response) => {
         case ".txt":
             type = "text/plain";
             break;
+        
         case ".css":
             type = "text/css";
             break;
