@@ -3,6 +3,7 @@ const path = require("path");
 const fs = require("fs");
 
 var server = http.createServer((request, response) => {
+    
     var url = path.join(__dirname, request.url == "/" ? "index.html" : request.url);
 
     var extension = path.extname(url);

@@ -10,6 +10,10 @@
     <!--=== fontaswesome ===-->
     <link rel="stylesheet" href="./assets/fontaswesome/css/all.min.css" />
     <link rel="stylesheet" href="./assets/fontaswesome/css/fontawesome.min.css" />
+    <!--=== main css ===-->
+    <link rel="stylesheet" href="./css/tailwind.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,15 +21,13 @@
         rel="stylesheet" />
     <!-- slick -->
     <link rel="stylesheet" type="text/css" href="./css/vendor/slick.css" />
-    <!--=== main css ===-->
-    <link rel="stylesheet" href="./css/tailwind.css" />
-    <link rel="stylesheet" href="./css/custom.css" />
+    
     <title>Home | Mugamba Bruno </title>
 
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
         if (localStorage.getItem("color-theme") === "dark" || (!("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-            document.documentElement.classList.add("dark");b
+            document.documentElement.classList.add("dark");
         } else {
             document.documentElement.classList.remove("dark");
         }
@@ -353,7 +355,7 @@
                                     <img class="w-10 h-10 object-contain block" src="./images/icons/icon1.png"
                                         alt="icon" />
                                     <div class="space-y-2">
-                                        <h3 class="dark:text-white text-[22px] font-semibold"> App Development </h3>
+                                        <h3 class="dark:text-white tekkxt-[22px] font-semibold"> App Development </h3>
                                         <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> With mobile development i use flutter.</p>
                                     </div>
                                 </div>
